@@ -4,6 +4,7 @@ import { FrontPage } from './FrontPage'
 import { TypeOfContent } from './TypeOfContent'
 import { ProfessionalInfo } from './ProfessionalInfo'
 import { PersonalInfo } from './PersonalInfo'
+import { Footer } from './Footer'
 
 function App() {
   const [showProfessional, setShowProfessional] = React.useState(true);
@@ -24,6 +25,7 @@ function App() {
           <ProfessionalInfo/> :
           <PersonalInfo/>
       }
+      <Footer/>
     </div>
   );
 }

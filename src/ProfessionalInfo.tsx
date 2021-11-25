@@ -1,7 +1,22 @@
+import { Card, cardDescriptionData, cardImgData } from "./Card"
+
 export const ProfessionalInfo = () => {
+
+    const img: cardImgData = {
+        path: "./HomeDepot.png",
+        title: "Home Depot"
+    }
+
+    const description: cardDescriptionData = {
+        description: "Lorep ipsum",
+        title: "Store Manager @ Home Depot"
+    }
+
     return (
     <div>
-        <p>This is professional!</p>
+        <Card img={img} description={description}/>
+        <Card img={img} description={description} link="https://www.homedepot.com/"/>
     </div>
     )
 }
+
