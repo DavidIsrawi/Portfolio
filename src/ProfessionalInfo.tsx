@@ -8,7 +8,7 @@ export const ProfessionalInfo = () => {
     }
 
     const description: cardDescriptionData = {
-        description: "Lorep ipsum",
+        description: "Lorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsum",
         title: "Store Manager @ Home Depot"
     }
 
