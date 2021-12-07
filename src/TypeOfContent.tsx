@@ -22,7 +22,7 @@ interface ContentButtonProps {
 const ContentButton = (props: ContentButtonProps) => {
     return (
         <button onClick={() => props.changeType(props.buttonText === "Professional")}
-        className="p-3 mx-min flex items-center w-1/3 rounded-lg justify-center bg-green-800 dark:bg-green-50 hover:bg-green-900 dark:hover:bg-green-200 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+        className="p-3 mx-min flex items-center w-1/3 rounded-lg justify-center bg-green-800 dark:bg-green-200 hover:bg-green-900 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">
             {props.buttonText}
         </button>
     )

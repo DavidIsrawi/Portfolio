@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <div className="App bg-gray-100 text-green-800 dark:bg-gray-800 dark:text-green-200 transition-colors duration-300">
+    <div className="App bg-gray-100 text-green-800 dark:bg-gray-800 dark:text-green-200 transition-colors duration-300 text-lg">
       <Toolbar/>
       <FrontPage/>
       
