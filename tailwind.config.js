@@ -6,7 +6,10 @@ module.exports = {
   },
   variants: {
     fill: ['hover'],
-    extend: {},
+    extend: {
+      borderStyle: ['responsive', 'hover'],
+      borderWidth: ['responsive', 'hover']
+    },
   },
   plugins: [],
 }

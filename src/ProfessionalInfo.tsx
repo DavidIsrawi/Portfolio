@@ -1,4 +1,5 @@
-import { Card, cardDescriptionData, cardImgData } from "./Card"
+import { Card, cardDescriptionData, cardImgData, cardLinkData } from "./Card"
+import { professionalData } from './utils/ProfessionalData.js'
 
 export const ProfessionalInfo = () => {
 
@@ -7,6 +8,21 @@ export const ProfessionalInfo = () => {
         title: "Home Depot"
     }
 
+    const repoLink: cardLinkData = {
+        title: 'Repo',
+        url: 'www.google.com'
+    }
+
+    const websiteLink: cardLinkData = {
+        title: 'Website',
+        url: 'www.google.com'
+    }
+
+    const linksArray: cardLinkData[] = [
+        repoLink,
+        websiteLink
+    ]
+
     const description: cardDescriptionData = {
         description: "Lorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsumLorep ipsum",
         title: "Store Manager @ Home Depot"
@@ -14,8 +30,12 @@ export const ProfessionalInfo = () => {
 
     return (
     <div>
-        <Card img={img} description={description}/>
-        <Card img={img} description={description} link="https://www.homedepot.com/"/>
+        {
+            professionalData.map(item => {
+                return <Card img={item.img} description={item.description} links={item.links}/>
+            })
+        }
+        
     </div>
     )
 }

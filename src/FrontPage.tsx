@@ -6,9 +6,9 @@ export const FrontPage = () => {
             <div className="flex flex-col md:flex-row justify-around mx-auto items-center h-1/2">
                 <img className="w-1/2 md:w-1/3 lg:w-1/4 rounded-full" src="./dahveedProfile.jpg" alt="dahveed" loading="lazy"/>
                 
-                <div className="w-1/2 text-center flex flex-col justify-between">
+                <div className="w-1/2 text-center flex flex-col justify-between md:my-0 my-8">
                     <p>Welcome! This is my new page, I'm learning how to program with Tailwind CSS</p>
-                    <div className="flex flex-row justify-evenly pt-8 self-center w-1/2">
+                    <div className="flex flex-row justify-evenly pt-8 self-center w-2/3">
                         <TwitchIcon/>
                         <InstagramIcon/>
                         <GithubIcon/>
