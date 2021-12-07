@@ -45,7 +45,7 @@ interface IconProps {
 
 const Icon = (props: IconProps) => {
     return (
-        <div className="w-8 fill-current cursor-pointer transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103" onClick={() => redirect(props.link)}>
+        <div className="w-8 fill-current cursor-pointer transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" onClick={() => redirect(props.link)}>
             {props.children}
         </div>
     )

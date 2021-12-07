@@ -7,10 +7,10 @@ interface TypeOfContentProps {
 
 export const TypeOfContent = (props: TypeOfContentProps) => {
     return (
-        <div className="flex justify-around dark:text-green-800 text-gray-100">
+        <section className="flex justify-around dark:text-green-800 text-gray-100">
             <ContentButton changeType={props.changeType} buttonText="Professional"/>
             <ContentButton changeType={props.changeType} buttonText="Personal"/>
-        </div>
+        </section>
     )
 }
 
