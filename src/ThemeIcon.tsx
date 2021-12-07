@@ -1,15 +1,10 @@
 import React from "react";
 
-interface ThemeIconProps {
-    isLight: boolean
-}
-
 export const ThemeIcon = () => {
     const [isLightTheme, setIsLightTheme] = React.useState(false);
 
     React.useEffect(() => {
         const isDarkThemeApplied = document.documentElement?.classList.contains("dark")
-        console.log(document.documentElement?.classList.contains("dark"))
         setIsLightTheme(!isDarkThemeApplied)
     }, [isLightTheme])
 

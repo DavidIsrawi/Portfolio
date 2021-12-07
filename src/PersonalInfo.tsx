@@ -6,7 +6,7 @@ export const PersonalInfo = () => {
     <section>
         {
             personalData.map(item => {
-                return <Card img={item.img} description={item.description} links={item.links}/>
+                return <Card _id={item._id} img={item.img} description={item.description} links={item.links}/>
             })
         }
     </section>

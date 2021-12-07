@@ -1,4 +1,6 @@
-export const professionalData = [
+import { CardItem } from "./DataModel";
+
+export const professionalData: CardItem[] = [
     {
         "_id": "61aed5a7bd0f5c0c1a11508f",
         "img": {
