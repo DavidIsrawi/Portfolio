@@ -7,7 +7,7 @@ export const FrontPage = () => {
             <div className="flex flex-col md:flex-row justify-around mx-auto items-center h-1/2">
 
                 {/* profile pic */}
-                <div className="w-1/2 md:w-1/3 lg:w-1/4">
+                <div className="w-1/3 lg:w-1/4">
                     <img className="rounded-full shadow-2xl" src={userProfile.img} alt="dahveed" loading="lazy"/>
                 </div>
                 

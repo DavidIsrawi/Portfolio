@@ -34,7 +34,6 @@ interface ContentButtonProps {
 
 const ContentButton = (props: ContentButtonProps) => {
     const selectedClasses = props.isSelected ? "bg-accent text-light" : "bg-primary dark:bg-secondary hover:bg-green-900 focus:bg-green-900"
-    console.log(props.isSelected)
     return (
         <button onClick={() => props.selectContent(props.buttonText)}
         className={"p-3 mx-min my-4 md:my-0 flex items-center rounded-lg justify-center transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:-translate-y-1 focus:scale-110 " + selectedClasses}>
