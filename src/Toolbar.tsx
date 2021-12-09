@@ -18,7 +18,7 @@ interface ToolbarButtonProps {
 
 const ToolbarButton = (props: ToolbarButtonProps) => {
     return (
-        <button className="px-2 pb-1 border-transparent transition-all duration-400 border-b-4 hover:border-current focus:border-current">
+        <button className="px-2 pb-1 border-transparent transition-all duration-400 border-b-4 hover:border-accent focus:border-accent">
             {props.title}
         </button>
     )
