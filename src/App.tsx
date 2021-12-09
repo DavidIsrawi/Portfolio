@@ -1,10 +1,8 @@
 import React from 'react'
 import { Toolbar } from './Toolbar'
 import { FrontPage } from './FrontPage'
-import { TypeOfContent } from './TypeOfContent'
-import { ProfessionalInfo } from './ProfessionalInfo'
-import { PersonalInfo } from './PersonalInfo'
 import { Footer } from './Footer'
+import { Content } from './Content'
 
 function App() {
   const [showProfessional, setShowProfessional] = React.useState(true);
@@ -15,16 +13,11 @@ function App() {
   }
 
   return (
-    <div className="App bg-gray-100 text-green-800 dark:bg-gray-800 dark:text-green-200 transition-colors duration-300 text-lg">
+    <div className="App bg-light text-primary dark:bg-dark dark:text-secondary transition-colors duration-300 text-lg">
       <Toolbar/>
       <FrontPage/>
       
-      <TypeOfContent changeType={changeType}/>
-      {
-        showProfessional ?
-          <ProfessionalInfo/> :
-          <PersonalInfo/>
-      }
+      <Content/>
       <Footer/>
     </div>
   );

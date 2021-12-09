@@ -3,7 +3,7 @@ import { ThemeIcon } from './ThemeIcon'
 
 export const Toolbar = () => {
     return (
-        <div className="top-0 py-1 sticky flex justify-around px-3 bg-gray-100 dark:bg-gray-800 transition-colors duration-300 z-10">
+        <div className="top-0 py-1 sticky flex justify-around px-3 bg-light dark:bg-dark transition-colors duration-300 z-10">
             <ToolbarButton title='Home'/>
             <ToolbarButton title='About'/>
             <ToolbarButton title='Contact'/>

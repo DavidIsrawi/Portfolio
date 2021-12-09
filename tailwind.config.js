@@ -2,13 +2,21 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light': "#F3F4F6",
+        'dark': "#1F2937",
+        'primary': "#065F46",
+        'secondary': "#A7F3D0",
+        'accent': "#f05d5eff"
+      }
+    },
   },
   variants: {
     fill: ['hover'],
     extend: {
       borderStyle: ['responsive', 'hover'],
-      borderWidth: ['responsive', 'hover']
+      borderWidth: ['responsive', 'hover'],
     },
   },
   plugins: [],

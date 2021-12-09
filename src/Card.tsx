@@ -1,6 +1,6 @@
-import { CardItem, CardLinks } from "./utils/DataModel"
+import { ContentItem, ContentItemLinks } from "./utils/DataModel"
 
-export const Card = (props: CardItem) => {
+export const Card = (props: ContentItem) => {
     return (
         <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103">
 
@@ -24,7 +24,7 @@ export const Card = (props: CardItem) => {
     )
 }
 
-const CardLink = (props: CardLinks) => {
+const CardLink = (props: ContentItemLinks) => {
     return (
         <a href={props.url} className="rounded-full px-2 py-1 text-xs mr-2 bg-green-800 text-gray-100">
             {props.title}

@@ -1,21 +1,35 @@
-export interface CardItem {
-    _id: string,
-    img: CardImg,
-    description: CardDescription,
-    links?: CardLinks[]
+export interface ContentItem {
+    img: ContentItemImg,
+    description: ContentItemDescription,
+    links?: ContentItemLinks[]
 }
 
-interface CardImg {
-path: string,
-title: string,
+interface ContentItemImg {
+    path: string,
+    title: string,
 }
 
-interface CardDescription {
+interface ContentItemDescription {
     title: string,
     description: string
 }
 
-export interface CardLinks {
+export interface ContentItemLinks {
     title: string,
     url: string
+}
+
+export interface UserProfile {
+    name: string,
+    description: string,
+    img: string
+}
+
+export interface UserContent {
+    contentTypes: ContentType[]
+}
+
+export interface ContentType {
+    type: string,
+    content: ContentItem[]
 }
