@@ -1,4 +1,4 @@
-import { GithubIcon, InstagramIcon, TwitchIcon, TwitterIcon } from "./Icons"
+import { GithubIcon, InstagramIcon, LinkedInIcon, TwitchIcon, TwitterIcon } from "./SocialIcons"
 import { userProfile } from "./utils/UserProfile"
 
 export const FrontPage = () => {
@@ -24,6 +24,7 @@ export const FrontPage = () => {
                         <InstagramIcon/>
                         <GithubIcon/>
                         <TwitterIcon/>
+                        <LinkedInIcon/>
                     </div>
                 </div>
             </div>

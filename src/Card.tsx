@@ -5,7 +5,7 @@ export const Card = (props: ContentItem) => {
         <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103">
 
             {/* Image section */}
-            <img src={props.img.path} alt={props.img.title} className="w-1/6 self-center pb-4 md:pb-0 rounded-full" loading='lazy'/>
+            <img src={props.img.path} alt={props.img.title} className="w-1/6 self-center pb-4 md:pb-0" loading='lazy'/>
 
             {/* Information section */}
             <div className="w-5/6 md:pl-10 text-center self-center md:text-left space-y-5">
