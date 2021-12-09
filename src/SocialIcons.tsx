@@ -1,5 +1,5 @@
 const redirect = (link: string) => {
-    window.open(link)
+    window.open(link, '_blank', 'noopener,noreferrer')
 }
 
 export const TwitchIcon = () => {
