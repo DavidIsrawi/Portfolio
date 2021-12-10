@@ -2,7 +2,7 @@ import { ContentItem, ContentItemLinks } from "./utils/DataModel"
 
 export const Card = (props: ContentItem) => {
     return (
-        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103">
+        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103" tabIndex={0}>
 
             {/* Image section */}
             <img src={props.img.path} alt={props.img.title} className="w-1/6 self-center pb-4 md:pb-0" loading='lazy'/>

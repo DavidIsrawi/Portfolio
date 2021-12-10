@@ -20,7 +20,7 @@ export const ThemeIcon = () => {
     }
 
     return (
-        <button onClick={() => toggleTheme()}>
+        <button onClick={() => toggleTheme()} aria-label="Switch Theme">
             {isLightTheme ?
             (
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor">

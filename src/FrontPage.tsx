@@ -7,18 +7,18 @@ export const FrontPage = () => {
             <div className="flex flex-col md:flex-row justify-around mx-auto items-center h-1/2">
 
                 {/* profile pic */}
-                <div className="w-1/3 lg:w-1/4">
+                <div className="w-1/3 lg:w-1/4" tabIndex={0}>
                     <img className="rounded-full shadow-2xl" src={userProfile.img} alt="dahveed" loading="lazy"/>
                 </div>
                 
                 {/* profile description */}
                 <div className="w-1/2 text-center flex flex-col justify-between md:my-0 my-8">
-                    <h1 className="text-5xl mb-8">
+                    <h1 className="text-5xl mb-8" tabIndex={0}>
                         <strong>
                             {userProfile.name}
                         </strong>
                     </h1>
-                    <p className="text-xl">{userProfile.description}</p>
+                    <p className="text-xl" tabIndex={0}>{userProfile.description}</p>
                     <div className="flex flex-row justify-evenly pt-8 self-center w-2/3">
                         <TwitchIcon/>
                         <InstagramIcon/>
