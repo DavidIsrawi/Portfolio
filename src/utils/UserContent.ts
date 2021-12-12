@@ -8,7 +8,7 @@ export const userContent: UserContent =
             content: [
                 {
                     img: {
-                        path: "./microsoft.png",
+                        path: "./assets/microsoft.png",
                         title: "Microsoft"
                     },
                     description: {
@@ -18,7 +18,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./datanautix.png",
+                        path: "./assets/datanautix.png",
                         title: "Datanautix"
                     },
                     description: {
@@ -28,7 +28,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./sf.png",
+                        path: "./assets/sf.png",
                         title: "State Farm Insurance"
                     },
                     description: {
@@ -43,7 +43,7 @@ export const userContent: UserContent =
             content: [
                 {
                     img: {
-                        path: "./datalions.png",
+                        path: "./assets/datalions.png",
                         title: "Datalions"
                     },
                     description: {
@@ -55,7 +55,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./outflu.png",
+                        path: "./assets/outflu.png",
                         title: "Outfluenza"
                     },
                     description: {
@@ -75,7 +75,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./drakefeels.png",
+                        path: "./assets/drakefeels.png",
                         title: "All The Feels"
                     },
                     description: {
@@ -95,7 +95,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./summary.png",
+                        path: "./assets/summary.png",
                         title: "All The Feels"
                     },
                     description: {
@@ -115,7 +115,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./PopsicleIcon.png",
+                        path: "./assets/PopsicleIcon.png",
                         title: "Flavored News"
                     },
                     description: {
@@ -135,7 +135,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./sfreims.png",
+                        path: "./assets/sfreims.png",
                         title: "SFreims"
                     },
                     description: {
@@ -150,7 +150,7 @@ export const userContent: UserContent =
             content: [
                 {
                     img: {
-                        path: "./https.png",
+                        path: "./assets/https.png",
                         title: "HTTPS"
                     },
                     description: {
@@ -166,7 +166,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./summary.png",
+                        path: "./assets/summary.png",
                         title: "Summary"
                     },
                     description: {
@@ -186,7 +186,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./mls.png",
+                        path: "./assets/mls.png",
                         title: "MLS Logo"
                     },
                     description: {
@@ -215,7 +215,7 @@ export const userContent: UserContent =
             content: [
                 {
                     img: {
-                        path: "./dahveed.png",
+                        path: "./assets/dahveed.png",
                         title: "Dahveed"
                     },
                     description: {
@@ -231,7 +231,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./pgstats.svg",
+                        path: "./assets/pgstats.svg",
                         title: "PG Stats"
                     },
                     description: {
