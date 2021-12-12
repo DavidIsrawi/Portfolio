@@ -1,3 +1,12 @@
+export interface UserContent {
+    contentTypes: ContentType[]
+}
+
+export interface ContentType {
+    type: string,
+    content: ContentItem[]
+}
+
 export interface ContentItem {
     img: ContentItemImg,
     description: ContentItemDescription,
@@ -23,13 +32,4 @@ export interface UserProfile {
     name: string,
     description: string,
     img: string
-}
-
-export interface UserContent {
-    contentTypes: ContentType[]
-}
-
-export interface ContentType {
-    type: string,
-    content: ContentItem[]
 }

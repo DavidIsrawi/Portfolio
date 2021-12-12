@@ -8,7 +8,7 @@ export const Content = () => {
     const [contentToDisplay, setContentToDisplay] = React.useState<ContentItem[]>([])
 
     const FetchSelectedContent = (contentType: string) => {
-        userContent.contentTypes.map(
+        userContent.contentTypes.forEach(
             type => {
                 if (type.type === contentType) {
                     setContentToDisplay(type.content)
