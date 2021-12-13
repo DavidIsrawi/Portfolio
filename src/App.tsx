@@ -6,7 +6,7 @@ import { Content } from './Content'
 
 function App() {
   return (
-    <div className="App bg-light text-primary dark:bg-dark dark:text-secondary transition-colors duration-300 text-lg">
+    <div className="App font-main bg-light text-primary dark:bg-dark dark:text-secondary transition-colors duration-300 text-lg">
       <Toolbar/>
       <FrontPage/>
       

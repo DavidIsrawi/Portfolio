@@ -9,6 +9,9 @@ module.exports = {
         'primary': "#065F46",
         'secondary': "#A7F3D0",
         'accent': "#f05d5eff"
+      },
+      fontFamily: {
+        'main': ['Montserrat', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', "Helvetica Neue", 'Arial', "Noto Sans", 'sans-serif', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
       }
     },
   },
