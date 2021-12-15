@@ -8,7 +8,7 @@ const RedirectIfEnter = (event: KeyboardEvent, link: string) => {
     }
 }
 
-export const TwitchIcon = () => {
+const TwitchIcon = () => {
     const link = "https://www.twitch.tv/dahveed_iy"
     return (
         <SocialIcon link={link}>
@@ -17,7 +17,7 @@ export const TwitchIcon = () => {
     )
 }
 
-export const TwitterIcon = () => {
+const TwitterIcon = () => {
     const link = "https://twitter.com/DavidIsrawi"
     return (
         <SocialIcon link={link}>
@@ -26,7 +26,7 @@ export const TwitterIcon = () => {
     )
 }
 
-export const GithubIcon = () => {
+const GithubIcon = () => {
     const link = "https://github.com/DavidIsrawi"
     return (
         <SocialIcon link={link}>
@@ -35,7 +35,7 @@ export const GithubIcon = () => {
     )
 }
 
-export const InstagramIcon = () => {
+const InstagramIcon = () => {
     const link = "https://www.instagram.com/davidisrawi/"
     return (
         <SocialIcon link={link}>
@@ -44,7 +44,7 @@ export const InstagramIcon = () => {
     )
 }
 
-export const LinkedInIcon = () => {
+const LinkedInIcon = () => {
     const link = "https://www.linkedin.com/in/davidisrawi/"
     return (
         <SocialIcon link={link}>
@@ -60,8 +60,20 @@ interface IconProps {
 
 const SocialIcon = (props: IconProps) => {
     return (
-        <div className="w-5 fill-current cursor-pointer transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" onClick={() => Redirect(props.link)} tabIndex={0} onKeyUp={(event: any) => RedirectIfEnter(event, props.link)}>
+        <div className="w-6 fill-current cursor-pointer transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" onClick={() => Redirect(props.link)} tabIndex={0} onKeyUp={(event: any) => RedirectIfEnter(event, props.link)}>
             {props.children}
+        </div>
+    )
+}
+
+export const SocialMediaIcons = () => {
+    return (
+        <div className="flex flex-row justify-evenly pt-8 self-center w-2/3">
+            <TwitchIcon/>
+            <InstagramIcon/>
+            <GithubIcon/>
+            <TwitterIcon/>
+            <LinkedInIcon/>
         </div>
     )
 }

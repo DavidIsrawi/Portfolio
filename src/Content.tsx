@@ -7,7 +7,7 @@ import { userContent } from "./utils/UserContent"
 export const Content = () => {
     const [contentToDisplay, setContentToDisplay] = React.useState<ContentItem[]>([])
 
-    const FetchSelectedContent = (contentType: string) => {
+    const FetchSelectedContent = React.useCallback((contentType: string) => {
         userContent.contentTypes.forEach(
             type => {
                 if (type.type === contentType) {
@@ -15,7 +15,7 @@ export const Content = () => {
                 }
             }
         )
-    }
+    }, [])
 
     return (
         <React.Fragment>

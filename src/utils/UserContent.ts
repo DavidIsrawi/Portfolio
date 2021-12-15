@@ -43,13 +43,29 @@ export const userContent: UserContent =
             content: [
                 {
                     img: {
+                        path: "./assets/musicalNote.svg",
+                        title: "Harmonic Visualizer"
+                    },
+                    description: {
+                        title: "Harmonic Visualizer",
+                        description: `When I first learned about the harmonic series, I had a hard time understanding how it worked and why it produces the tones it does. I created this website with React and Typescript, and using the Tone.js package, to visualize how the harmonic series works.`
+                    },
+                    links: [
+                        {
+                            title: 'Check it out',
+                            url: 'https://davidisrawi.me/harmonic-visualizer/'
+                        }
+                    ]
+                },
+                {
+                    img: {
                         path: "./assets/datalions.png",
                         title: "Datalions"
                     },
                     description: {
                         title: "Datalions",
                         description: `Datalions is a cross-platform application that helps the fitness team and coaches of the Orlando City Soccer Club predict the risk of soft-tissue injury for players using machine learning and data visualization. It also serves as an injury log system for the team.
-
+    
                         This project was sponsored by the Orlando City Soccer Club.`
                     }
                 },

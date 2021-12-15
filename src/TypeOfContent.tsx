@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { ContentType } from './utils/DataModel'
 
@@ -8,7 +7,11 @@ interface ContentTypeSelectorsProps {
 }
 
 export const ContentTypeSelectors = (props: ContentTypeSelectorsProps) => {
-    const [selectedType, setSelectedType] = React.useState('')
+    const [selectedType, setSelectedType] = React.useState(props.contentTypes[0].type)
+
+    React.useEffect(() => {
+        props.selectContent(selectedType)
+    }, [props, selectedType])
 
     const SelectTypeAndContent = (type: string) => {
         setSelectedType(type)
@@ -36,7 +39,7 @@ const ContentButton = (props: ContentButtonProps) => {
     const selectedClasses = props.isSelected ? "bg-accent text-light" : "bg-primary dark:bg-secondary hover:bg-green-900 focus:bg-green-900"
     return (
         <button onClick={() => props.selectContent(props.buttonText)}
-        className={"p-3 mx-min my-4 md:my-0 flex items-center rounded-lg justify-center transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:-translate-y-1 focus:scale-110 " + selectedClasses}>
+        className={"p-4 my-4 md:my-0 flex items-center rounded-lg justify-center transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:-translate-y-1 focus:scale-110 " + selectedClasses}>
             {props.buttonText}
         </button>
     )

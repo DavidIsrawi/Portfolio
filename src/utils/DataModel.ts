@@ -30,6 +30,9 @@ export interface ContentItemLinks {
 
 export interface UserProfile {
     name: string,
+    about: string[],
     description: string,
-    img: string
+    email: string,
+    img: string,
+    resume: string
 }
