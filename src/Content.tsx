@@ -6,13 +6,13 @@ import { userContent } from "./utils/UserContent"
 
 export const Content = () => {
     return (
-        <React.Fragment>
+        <section id="content">
             {
                 userContent.contentTypes.map(contentType => {
                     return <ContentSection section={contentType}/>
                 })
             }
-        </React.Fragment>
+        </section>
     )
 }
 
