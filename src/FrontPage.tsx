@@ -57,7 +57,7 @@ const ProfilePic = () => {
 
 const ProfileName = () => {
     return (
-        <h1 className="text-5xl mb-8 text-center mx-auto" tabIndex={0}>
+        <h1 className="mb-8 text-center mx-auto" tabIndex={0}>
             <strong>
                 {userProfile.name}
             </strong>

@@ -25,7 +25,7 @@ interface ContentSectionTitleProps {
 
 const ContentSectionTitle = (props: ContentSectionTitleProps) => {
     return (
-        <h2 className="text-4xl mx-auto w-2/3 flex items-center gap-6">
+        <h2 className="mx-auto w-2/3 flex items-center gap-6">
             <strong className="mx-auto md:mx-0" tabIndex={0}>{props.title}</strong>
         </h2>
     )
