@@ -9,6 +9,6 @@ export const userProfile: UserProfile = {
     `On my free time, you can catch me streaming, playing Super Smash Bros., or playing soccer (not the best sport for Seattle's weather).`],
     description: "Welcome! This is my new page, I'm learning how to program with Tailwind CSS",
     email: "davidisrawi@gmail.com",
-    img: './assets/dahveedProfile.jpg',
+    img: './assets/ProfilePic.jpg',
     resume: 'https://drive.google.com/file/d/0BxHec4yAhjE_TExsYjlRbUcyLVU/view'
 }
