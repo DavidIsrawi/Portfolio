@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/davidisrawi.me/static/css/main.816c5d0f.css",
+    "main.js": "/davidisrawi.me/static/js/main.1b3bc6ce.js",
+    "static/js/787.aad34528.chunk.js": "/davidisrawi.me/static/js/787.aad34528.chunk.js",
+    "index.html": "/davidisrawi.me/index.html",
+    "main.816c5d0f.css.map": "/davidisrawi.me/static/css/main.816c5d0f.css.map",
+    "main.1b3bc6ce.js.map": "/davidisrawi.me/static/js/main.1b3bc6ce.js.map",
+    "787.aad34528.chunk.js.map": "/davidisrawi.me/static/js/787.aad34528.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.816c5d0f.css",
+    "static/js/main.1b3bc6ce.js"
+  ]
+}
