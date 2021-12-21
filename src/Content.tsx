@@ -33,8 +33,7 @@ const ContentSectionTitle = (props: ContentSectionTitleProps) => {
 
 const ContentSection = (props: ContentSectionProps) => {
     return (
-        // TODO: Whenever we update to Tailwing v3, update this section to have a scroll margin top
-        <section id={props.section.type} className="my-10">
+        <section id={props.section.type} className="my-10 scroll-mt-14">
             <ContentSectionTitle title={props.section.type}/>
             {
                 props.section.content.map((item: ContentItem) => {
