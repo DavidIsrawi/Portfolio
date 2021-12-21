@@ -33,7 +33,7 @@ const ContentSectionTitle = (props: ContentSectionTitleProps) => {
 
 const ContentSection = (props: ContentSectionProps) => {
     return (
-        <section id={props.section.type} className="my-10 scroll-mt-14">
+        <section id={props.section.type} className="my-10 md:scroll-mt-14 scroll-mt-20">
             <ContentSectionTitle title={props.section.type}/>
             {
                 props.section.content.map((item: ContentItem) => {

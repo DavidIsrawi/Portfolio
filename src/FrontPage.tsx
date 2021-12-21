@@ -30,7 +30,7 @@ export const FrontPage = (props: FrontPageProps) => {
     }, [frontSectionRef, intersectFrontNameCallback, options])
 
     return (
-        <section id='FrontPage' ref={frontSectionRef} className="min-h-screen flex flex-col justify-around mx-auto items-center md:flex-col mb-10 scroll-mt-8">
+        <section id='FrontPage' ref={frontSectionRef} className="min-h-screen flex flex-col justify-around mx-auto items-center md:flex-col mb-10 md:scroll-mt-8 scroll-mt-16">
             <div className="flex flex-col md:flex-row justify-around mx-auto items-center h-1/2">
 
                 <ProfilePic/>
