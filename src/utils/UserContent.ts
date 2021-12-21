@@ -53,7 +53,7 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: 'Check it out',
-                            url: 'https://davidisrawi.me/harmonic-visualizer/'
+                            url: 'https://davidisrawi.github.io/harmonic-visualizer/'
                         }
                     ]
                 },
