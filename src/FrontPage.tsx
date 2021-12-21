@@ -50,7 +50,7 @@ const ProfilePic = () => {
     return (
         // TODO: Whenever we update to Tailwing v3, update this pic to have an different shadow on hover
         <div className="w-1/3 lg:w-1/4" tabIndex={0}>
-            <img className="rounded-full shadow-2xl" src={userProfile.img} alt="dahveed" loading="lazy"/>
+            <img className="rounded-full shadow-2xl hover:shadow-primary dark:hover:shadow-secondary" src={userProfile.img} alt="dahveed" loading="lazy"/>
         </div>
     )
 }
