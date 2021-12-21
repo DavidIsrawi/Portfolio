@@ -35,7 +35,7 @@ export const FrontPage = (props: FrontPageProps) => {
 
                 <ProfilePic/>
                 
-                <div className="w-1/2 flex flex-col justify-between md:my-0 my-8">
+                <div className="w-4/5 md:w-1/2 flex flex-col justify-between md:my-0 my-8">
                     <ProfileName/>
                     <ProfileDescription/>
                     <SocialMediaIcons/>

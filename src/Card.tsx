@@ -20,7 +20,7 @@ export const Card = (props: ContentItem) => {
 
     const ImageSection = () => {
         return (
-            <img src={props.img.path} alt={props.img.title} className="w-1/6 self-center pb-4 md:pb-0" loading='lazy'/>
+            <img src={props.img.path} alt={props.img.title} className="w-1/4 md:w-1/6 self-center pb-4 md:pb-0" loading='lazy'/>
         )
     }    
 
