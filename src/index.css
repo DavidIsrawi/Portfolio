@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* CSS HEX */
-/* --cultured: #f3f4f6ff;
---castleton-green: #065f46ff;
---gunmetal: #1f2d37ff;
---magic-mint: #a7f3d0ff;
---sizzling-red: #f05d5eff; */
+@layer base {
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+}

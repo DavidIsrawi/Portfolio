@@ -1,15 +1,11 @@
 import { ContentItem, ContentItemLinks } from "./utils/DataModel"
 
 export const Card = (props: ContentItem) => {
-    return (
-        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103" tabIndex={0}>
 
-            {/* Image section */}
-            <img src={props.img.path} alt={props.img.title} className="w-1/6 self-center pb-4 md:pb-0" loading='lazy'/>
-
-            {/* Information section */}
+    const InformationSection = () => {
+        return (
             <div className="w-5/6 md:pl-10 text-center self-center md:text-left space-y-5">
-                <strong className="text-xl self-center">{props.description.title}</strong>
+                <h3><strong className="self-center">{props.description.title}</strong></h3>
                 <p className="text-left opacity-70">
                     {props.description.description}
                 </p>
@@ -19,7 +15,19 @@ export const Card = (props: ContentItem) => {
                     })}
                 </div>
             </div>
-            
+        )
+    }
+
+    const ImageSection = () => {
+        return (
+            <img src={props.img.path} alt={props.img.title} className="w-1/6 self-center pb-4 md:pb-0" loading='lazy'/>
+        )
+    }    
+
+    return (
+        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" tabIndex={0}>
+            <ImageSection/>
+            <InformationSection/>
         </div>
     )
 }

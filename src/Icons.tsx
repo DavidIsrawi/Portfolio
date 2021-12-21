@@ -1,3 +1,5 @@
+import { userProfile } from "./utils/UserProfile";
+
 const Redirect = (link: string) => {
     window.open(link, '_blank', 'noopener,noreferrer')
 }
@@ -8,7 +10,31 @@ const RedirectIfEnter = (event: KeyboardEvent, link: string) => {
     }
 }
 
-export const TwitchIcon = () => {
+export const LightThemeIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+    )
+}
+
+export const DarkThemeIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:fill-current" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+    )
+}
+
+export const RightArrowIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+    )
+}
+
+const TwitchIcon = () => {
     const link = "https://www.twitch.tv/dahveed_iy"
     return (
         <SocialIcon link={link}>
@@ -17,7 +43,7 @@ export const TwitchIcon = () => {
     )
 }
 
-export const TwitterIcon = () => {
+const TwitterIcon = () => {
     const link = "https://twitter.com/DavidIsrawi"
     return (
         <SocialIcon link={link}>
@@ -26,7 +52,7 @@ export const TwitterIcon = () => {
     )
 }
 
-export const GithubIcon = () => {
+const GithubIcon = () => {
     const link = "https://github.com/DavidIsrawi"
     return (
         <SocialIcon link={link}>
@@ -35,7 +61,7 @@ export const GithubIcon = () => {
     )
 }
 
-export const InstagramIcon = () => {
+const InstagramIcon = () => {
     const link = "https://www.instagram.com/davidisrawi/"
     return (
         <SocialIcon link={link}>
@@ -44,11 +70,23 @@ export const InstagramIcon = () => {
     )
 }
 
-export const LinkedInIcon = () => {
+const LinkedInIcon = () => {
     const link = "https://www.linkedin.com/in/davidisrawi/"
     return (
         <SocialIcon link={link}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>LinkedIn</title><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </SocialIcon>
+    )
+}
+
+const ResumeIcon = () => {
+    const link = userProfile.resume
+    return (
+        <SocialIcon link={link}>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <title>Resume</title>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
         </SocialIcon>
     )
 }
@@ -60,8 +98,21 @@ interface IconProps {
 
 const SocialIcon = (props: IconProps) => {
     return (
-        <div className="w-5 fill-current cursor-pointer transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" onClick={() => Redirect(props.link)} tabIndex={0} onKeyUp={(event: any) => RedirectIfEnter(event, props.link)}>
+        <div className="w-6 fill-current cursor-pointer transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" onClick={() => Redirect(props.link)} tabIndex={0} onKeyUp={(event: any) => RedirectIfEnter(event, props.link)}>
             {props.children}
+        </div>
+    )
+}
+
+export const SocialMediaIcons = () => {
+    return (
+        <div className="flex flex-row justify-evenly pt-8 self-center w-full md:w-2/3">
+            <TwitchIcon/>
+            <InstagramIcon/>
+            <GithubIcon/>
+            <TwitterIcon/>
+            <LinkedInIcon/>
+            <ResumeIcon/>
         </div>
     )
 }
