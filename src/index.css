@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply text-5xl text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary dark:from-secondary dark:to-primary;
+    @apply text-5xl text-transparent bg-clip-text bg-gradient-to-br from-primary to-green-500 dark:from-secondary dark:to-green-500;
   }
   h2 {
     @apply text-4xl;
