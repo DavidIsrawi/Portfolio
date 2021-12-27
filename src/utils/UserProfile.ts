@@ -10,5 +10,5 @@ export const userProfile: UserProfile = {
     description: "Welcome! This is my new page, I'm learning how to program with Tailwind CSS",
     email: "davidisrawi@gmail.com",
     img: './assets/ProfilePic.jpg',
-    resume: 'https://drive.google.com/file/d/0BxHec4yAhjE_TExsYjlRbUcyLVU/view'
+    resume: 'https://drive.google.com/file/d/0BxHec4yAhjE_TExsYjlRbUcyLVU/view?usp=sharing&resourcekey=0-XjRa57thfhaPssVyodLjjQ'
 }
