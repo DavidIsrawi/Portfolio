@@ -6,7 +6,7 @@ export const Card = (props: ContentItem) => {
         return (
             <div className="w-5/6 md:pl-10 text-center self-center md:text-left space-y-5">
                 <h3><strong className="self-center">{props.description.title}</strong></h3>
-                <p className="text-left opacity-70">
+                <p className="text-left opacity-90">
                     {props.description.description}
                 </p>
                 <div>
