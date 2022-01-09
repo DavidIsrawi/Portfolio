@@ -16,6 +16,7 @@ export const Toolbar = (props: ToolbarProps) => {
                     return <ToolbarButton title={type.type}/>
                 })
             }
+            <ToolbarButton title="Travel"/>
             <ThemeIcon/>
         </div>
     )

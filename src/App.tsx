@@ -3,6 +3,7 @@ import { Toolbar } from './Toolbar'
 import { FrontPage } from './FrontPage'
 import { Footer } from './Footer'
 import { Content } from './Content'
+import { TravelContainer } from './MarpsLists'
 
 function App() {
   const [showNameOnToolbar, setShowNameOnToolbar] = React.useState(true)
@@ -12,6 +13,7 @@ function App() {
       <FrontPage setShowNameOnToolbar={setShowNameOnToolbar}/>
       
       <Content/>
+      <TravelContainer/>
       <Footer/>
     </div>
   );

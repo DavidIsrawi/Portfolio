@@ -23,6 +23,11 @@ interface ContentItemDescription {
     description: string
 }
 
+export interface MapsList {
+    title: string,
+    url: string
+}
+
 export interface ContentItemLinks {
     title: string,
     url: string
@@ -35,4 +40,10 @@ export interface UserProfile {
     email: string,
     img: string,
     resume: string
+}
+
+export interface MapsListsCategory {
+    name: string,
+    description: string,
+    mapsLists: MapsList[]
 }
