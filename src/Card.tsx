@@ -34,7 +34,7 @@ export const Card = (props: ContentItem) => {
 
 const CardLink = (props: ContentItemLinks) => {
     return (
-        <a href={props.url} target="_blank" rel="noreferrer noopener" className="rounded-full px-2 py-1 text-xs mr-2 bg-green-800 text-gray-100">
+        <a href={props.url} target="_blank" rel="noreferrer noopener" className="rounded-full px-2 py-1 text-xs mr-2 bg-primary text-light">
             {props.title}
         </a>
     )

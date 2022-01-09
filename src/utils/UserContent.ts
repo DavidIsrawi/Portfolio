@@ -4,7 +4,7 @@ export const userContent: UserContent =
 {
     contentTypes: [
         {
-            type: "Work Experience",
+            type: "Work",
             content: [
                 {
                     img: {
