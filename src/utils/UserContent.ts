@@ -39,7 +39,7 @@ export const userContent: UserContent =
             ]
         },
         {
-            type: "Personal Projects",
+            type: "Projects",
             content: [
                 {
                     img: {
