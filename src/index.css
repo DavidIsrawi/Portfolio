@@ -16,6 +16,6 @@
 
 @layer components {
   .imply_hyperlink {
-    @apply font-bold border-transparent transition-all border-b-4 hover:border-accent focus:border-accent;
+    @apply font-bold border-transparent transition-all duration-400 border-b-4 hover:border-accent focus:border-accent;
   }
 }
