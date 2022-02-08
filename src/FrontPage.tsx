@@ -69,13 +69,11 @@ const ProfileDescription = () => {
     return (
         <p tabIndex={0}>
             {
-                userProfile.about.map(sentence => {
-                    return <p className="mb-5">{sentence}</p>
-                })
+                <div>{userProfile.about}</div>
             }
             {
                 userProfile.email ? 
-                    <p>Feel free to reach out at <a className="font-bold border-transparent transition-all duration-400 border-b-4 hover:border-accent focus:border-accent" href={`mailto:${userProfile.email}`}>{userProfile.email}</a></p>
+                    <p>Feel free to reach out at <a className="imply_hyperlink" href={`mailto:${userProfile.email}`}>{userProfile.email}</a></p>
                     :
                     null
             }

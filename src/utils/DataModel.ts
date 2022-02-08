@@ -35,7 +35,7 @@ export interface ContentItemLinks {
 
 export interface UserProfile {
     name: string,
-    about: string[],
+    about: JSX.Element,
     description: string,
     email: string,
     img: string,

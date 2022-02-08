@@ -13,3 +13,9 @@
     @apply text-2xl;
   }
 }
+
+@layer components {
+  .imply_hyperlink {
+    @apply font-bold border-transparent transition-all border-b-4 hover:border-accent focus:border-accent;
+  }
+}
