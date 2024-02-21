@@ -25,7 +25,8 @@ interface ContentItemDescription {
 
 export interface MapsList {
     title: string,
-    url: string
+    url: string,
+    isNew: boolean
 }
 
 export interface ContentItemLinks {
