@@ -29,7 +29,7 @@ const MapsListCategory = (props: MapsListCategoryProps) => {
                 <p>{props.lists.description}</p>
             </div>
             
-            <div className='w-full md:w-full flex flex-row flex-wrap justify-around self-center md:pt-0 pt-8'>
+            <div className='w-full md:w-full flex flex-row flex-wrap justify-center self-center md:pt-0 pt-8 gap-x-2'>
                 {
                     props.lists.mapsLists.map(list => {
                         return <MapsListCard list={list}/>
@@ -52,6 +52,7 @@ const MapsListCard = (props: MapsListCardProps) => {
                     {props.list.title}
                 </strong>
             </a>
+            { props.list.isNew ? <span className="absolute -top-2 rounded-full bg-yellow-300 text-yellow-800 text-xs font-medium me-2 px-2 py-0.5 dark:bg-yellow-900 dark:text-yellow-300">NEW</span> : null}
         </div>
     )
 }

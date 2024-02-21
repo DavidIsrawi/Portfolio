@@ -3,7 +3,7 @@ import { UserProfile } from "./DataModel";
 const about: JSX.Element = (
     <div>
         <p className="mb-5">
-            I currently work as a Software Engineer at <strong><a className='imply_hyperlink' href='https://twitter.com/msexcel'>@MicrosoftExcel</a></strong>. I enjoy working on projects that regard unexplored data — mostly surrounding <a className='imply_hyperlink' href='https://davidisrawi.github.io/harmonic-visualizer/'>music</a> and <a className='imply_hyperlink' href='http://mlsanalytics.surge.sh/'>sports</a>.
+            I currently work as a Software Engineer at <strong><a className='imply_hyperlink' href='https://twitter.com/MicrosoftLoop'>@MicrosoftLoop</a></strong>. I enjoy working on projects that regard unexplored data — mostly surrounding <a className='imply_hyperlink' href='https://davidisrawi.github.io/harmonic-visualizer/'>music</a> and <a className='imply_hyperlink' href='http://mlsanalytics.surge.sh/'>sports</a>.
         </p>
         <p className="mb-5">
         Although I work as a fullstack developer, I invest most of my time learning and developing on front-end.

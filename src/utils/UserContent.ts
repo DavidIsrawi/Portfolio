@@ -13,7 +13,7 @@ export const userContent: UserContent =
                     },
                     description: {
                         title: "Microsoft",
-                        description: "Currently living in Seattle while working on the Excel team at Microsoft, helping to develop a better charting experience. Good things to come!"
+                        description: "Currently living in Seattle while working on the Loop App team at Microsoft, focusing on Emojis and other non-textural communication experiences. Before that, I worked on the Excel team, helping to develop a better charting experience. Good things to come!"
                     }
                 },
                 {
