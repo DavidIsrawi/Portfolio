@@ -13,7 +13,7 @@ export const userContent: UserContent =
                     },
                     description: {
                         title: "Microsoft",
-                        description: "Currently living in Seattle while working on the Loop App team at Microsoft, focusing on Emojis and other non-textural communication experiences. Before that, I worked on the Excel team, helping to develop a better charting experience. Good things to come!"
+                        description: "Currently living in Seattle while working on the M365 Copilot App at Microsoft, focusing on different Canvas experiences such as the Notebooks and Pages modules. Before that, I worked on the Loop App team as well as the Excel team, helping to develop a better the emoji experience, bettering our deployment infrastructure, and developing our charting experience. Good things to come!"
                     }
                 },
                 {
