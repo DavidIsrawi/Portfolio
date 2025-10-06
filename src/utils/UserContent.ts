@@ -1,4 +1,5 @@
 import { UserContent } from "./DataModel";
+import { externalLinks } from "./ExternalLinks";
 
 export const userContent: UserContent = 
 {
@@ -53,7 +54,7 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: 'Check it out',
-                            url: 'https://davidisrawi.github.io/harmonic-visualizer/'
+                            url: externalLinks.harmonicVisualizer
                         }
                     ]
                 },
@@ -81,11 +82,11 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "GitHub",
-                            url: "https://github.com/cancanf3/outfluenza"
+                            url: externalLinks.outfluenzaRepo
                         },
                         {
                             title: "Devpost",
-                            url: "https://devpost.com/software/outfluenza-xmtew3"
+                            url: externalLinks.outfluenzaDevpost
                         },
                     ]
                 },
@@ -101,11 +102,11 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "GitHub",
-                            url: "https://github.com/DavidIsrawi/AllTheFeels"
+                            url: externalLinks.allTheFeelsRepo
                         },
                         {
                             title: "Devpost",
-                            url: "https://devpost.com/software/allthefeels-9mdqs8"
+                            url: externalLinks.allTheFeelsDevpost
                         },
                     ]
                 },
@@ -121,11 +122,11 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "GitHub",
-                            url: "https://github.com/DavidIsrawi/SummarizeMe"
+                            url: externalLinks.summarizeMeRepo
                         },
                         {
                             title: "Check it out",
-                            url: "http://summarizeme.surge.sh/"
+                            url: externalLinks.summarizeMeSite
                         },
                     ]
                 },
@@ -141,11 +142,11 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "GitHub",
-                            url: "https://github.com/JoshuaKoh/LaCodingGranja_2016"
+                            url: externalLinks.flavoredNewsRepo
                         },
                         {
                             title: "Devpost",
-                            url: "https://devpost.com/software/lacodinggranja_2016"
+                            url: externalLinks.flavoredNewsDevpost
                         },
                     ]
                 },
@@ -176,7 +177,7 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "Article",
-                            url: "https://dev.to/davidisrawi/securing-your-website-in-4-minutes---what-why-and-how-of-https-3kcm"
+                            url: externalLinks.secureWebsiteArticle
                         }
                     ]
                 },
@@ -192,11 +193,11 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "GitHub",
-                            url: "https://github.com/DavidIsrawi/SummarizeMe"
+                            url: externalLinks.summarizeMeRepo
                         },
                         {
                             title: "Article",
-                            url: "https://dev.to/davidisrawi/build-a-quick-summarizer-with-python-and-nltk"
+                            url: externalLinks.summarizerArticle
                         }
                     ]
                 },
@@ -212,15 +213,15 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "Analysis Repo",
-                            url: "https://github.com/DavidIsrawi/SalariesMLS"
+                            url: externalLinks.salariesMlsRepo
                         },
                         {
                             title: "Visuals Repo",
-                            url: "https://github.com/DavidIsrawi/SalariesMLS-Visuals"
+                            url: externalLinks.salariesMlsVisualsRepo
                         },
                         {
                             title: "Article",
-                            url: "http://mlsanalytics.surge.sh/"
+                            url: externalLinks.mlsAnalytics
                         }
                     ]
                 }
@@ -241,7 +242,7 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "Check out my channel!",
-                            url: "https://www.twitch.tv/dahveed_iy"
+                            url: externalLinks.twitchChannel
                         }
                     ]
                 },
@@ -257,7 +258,7 @@ export const userContent: UserContent =
                     links: [
                         {
                             title: "Player stats",
-                            url: "https://www.pgstats.com/ultimate/player/Dahveed?id=S1805146"
+                            url: externalLinks.superSmashProfile
                         }
                     ]
                 }
