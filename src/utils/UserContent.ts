@@ -248,7 +248,7 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./assets/supermajor.svg",
+                        path: "./assets/supermajor.png",
                         title: "Supermajor.gg"
                     },
                     description: {
