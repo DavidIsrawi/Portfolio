@@ -248,12 +248,12 @@ export const userContent: UserContent =
                 },
                 {
                     img: {
-                        path: "./assets/pgstats.svg",
-                        title: "PG Stats"
+                        path: "./assets/supermajor.svg",
+                        title: "Supermajor.gg"
                     },
                     description: {
                         title: "Competitive Player for Super Smash Bros. Ultimate",
-                        description: `I have been working on getting better as a competitive player since the COVID pandemic started. Up until recently I had only participated in free online tournaments and local hangouts for practice, but now I have started to go to local tournaments. I haven't yet won a tourney, but soon it will happen!`
+                        description: `I have been playing competitively since 2021-2022. I have mostly attended local tournaments, though I eventually also participate in events out of region.`
                     },
                     links: [
                         {
