@@ -65,11 +65,6 @@
         "isNew": false
       },
       {
-        "title": "Seattle",
-        "url": "https://goo.gl/maps/BznEZjCikxUMp4Vo9",
-        "isNew": false
-      },
-      {
         "title": "San Diego",
         "url": "https://goo.gl/maps/3f1NXBaWAfHZYBvU9",
         "isNew": false
@@ -90,6 +85,16 @@
     "name": "Seattle Series",
     "description": "Best options in Seattle per category. I will be updating these lists fairly regularly.",
     "mapsLists": [
+      {
+        "title": "Dine-in Restaurants",
+        "url": "https://maps.app.goo.gl/4DKMmrab2ri4WamL8",
+        "isNew": true
+      },
+      {
+        "title": "Quick food",
+        "url": "https://maps.app.goo.gl/xe7CEtbK4kWB4Tx1A",
+        "isNew": true
+      },
       {
         "title": "Coffee Shops",
         "url": "https://maps.app.goo.gl/Jm21thgv1b3RD1yj9",
