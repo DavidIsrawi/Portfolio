@@ -37,8 +37,13 @@
   },
   {
     "name": "Fire Food Series",
-    "description": "Best food in town",
+    "description": "For these lists I tend to consult with local people, though keep in mind that it comes from the view of a tourist",
     "mapsLists": [
+      {
+        "title": "CDMX",
+        "url": "https://maps.app.goo.gl/pJyozFzBhzF8b3nq5",
+        "isNew": true
+      },
       {
         "title": "Kauai",
         "url": "https://maps.app.goo.gl/VfR3ufMPwZytiyyu5",
