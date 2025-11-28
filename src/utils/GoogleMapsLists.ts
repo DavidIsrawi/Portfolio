@@ -8,12 +8,12 @@ export const mapsLists: MapsListsCategory[] = [
       {
         title: 'Tokyo',
         url: 'https://maps.app.goo.gl/dBAgPELL1h7Z4Se88',
-        isNew: true
+        isNew: false
       },
       {
         title: 'Guadalajara',
         url: 'https://maps.app.goo.gl/9jDu727VRARRCeTZ8',
-        isNew: true
+        isNew: false
       },
       {
         title: 'Barcelona',
@@ -59,7 +59,7 @@ export const mapsLists: MapsListsCategory[] = [
       {
         title: 'Orlando',
         url: 'https://goo.gl/maps/CnTN3Tg4SFxPdmdG8',
-        isNew: true
+        isNew: false
       },
       {
         title: 'Seattle',
@@ -80,6 +80,27 @@ export const mapsLists: MapsListsCategory[] = [
         title: 'Whistler',
         url: 'https://goo.gl/maps/72BaMQonGLCVh6Ut8',
         isNew: false
+      }
+    ]
+  },
+  {
+    name: 'Seattle Series',
+    description: 'Best options in Seattle per category. I will be updating these lists fairly regularly.',
+    mapsLists: [
+      {
+        title: 'Coffee Shops',
+        url: 'https://maps.app.goo.gl/Jm21thgv1b3RD1yj9',
+        isNew: true
+      },
+      {
+        title: 'Breakfast Spots',
+        url: 'https://maps.app.goo.gl/HiPDYumMsThNzPPt7',
+        isNew: true
+      },
+      {
+        title: 'Dessert Spots',
+        url: 'https://maps.app.goo.gl/ACaasdMvyovH2nmd9',
+        isNew: true
       }
     ]
   }
