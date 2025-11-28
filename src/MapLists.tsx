@@ -1,5 +1,5 @@
 import { MapsList, MapsListsCategory } from './utils/DataModel'
-import { mapsLists } from './utils/GoogleMapsLists'
+import mapsLists from './utils/GoogleMapsLists.json'
 
 export const TravelContainer = () => {
 
