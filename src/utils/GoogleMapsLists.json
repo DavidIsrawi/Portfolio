@@ -1,37 +1,32 @@
 [
   {
-    "name": "Le Tour Series",
-    "description": "A combination of experiences and food",
+    "name": "Seattle Series",
+    "description": "Best options in Seattle per category. I will be updating these lists fairly regularly.",
     "mapsLists": [
       {
-        "title": "Tokyo",
-        "url": "https://maps.app.goo.gl/dBAgPELL1h7Z4Se88",
-        "isNew": false
+        "title": "Dine-in Restaurants",
+        "url": "https://maps.app.goo.gl/4DKMmrab2ri4WamL8",
+        "isNew": true
       },
       {
-        "title": "Guadalajara",
-        "url": "https://maps.app.goo.gl/9jDu727VRARRCeTZ8",
-        "isNew": false
+        "title": "Quick Food",
+        "url": "https://maps.app.goo.gl/xe7CEtbK4kWB4Tx1A",
+        "isNew": true
       },
       {
-        "title": "Barcelona",
-        "url": "https://goo.gl/maps/KTBSNeGfyJcoh9fa6",
-        "isNew": false
+        "title": "Coffee Shops",
+        "url": "https://maps.app.goo.gl/Jm21thgv1b3RD1yj9",
+        "isNew": true
       },
       {
-        "title": "Madrid",
-        "url": "https://goo.gl/maps/ihthHBDUwjqfoa4a6",
-        "isNew": false
+        "title": "Breakfast Spots",
+        "url": "https://maps.app.goo.gl/HiPDYumMsThNzPPt7",
+        "isNew": true
       },
       {
-        "title": "Vancouver",
-        "url": "https://goo.gl/maps/9Apgbv29NDYiww4m8",
-        "isNew": false
-      },
-      {
-        "title": "Cabo",
-        "url": "https://goo.gl/maps/gp9kGFUkm9ncQqBC6",
-        "isNew": false
+        "title": "Dessert Spots",
+        "url": "https://maps.app.goo.gl/ACaasdMvyovH2nmd9",
+        "isNew": true
       }
     ]
   },
@@ -82,33 +77,38 @@
     ]
   },
   {
-    "name": "Seattle Series",
-    "description": "Best options in Seattle per category. I will be updating these lists fairly regularly.",
+    "name": "Le Tour Series",
+    "description": "A combination of experiences and food",
     "mapsLists": [
       {
-        "title": "Dine-in Restaurants",
-        "url": "https://maps.app.goo.gl/4DKMmrab2ri4WamL8",
-        "isNew": true
+        "title": "Tokyo",
+        "url": "https://maps.app.goo.gl/dBAgPELL1h7Z4Se88",
+        "isNew": false
       },
       {
-        "title": "Quick food",
-        "url": "https://maps.app.goo.gl/xe7CEtbK4kWB4Tx1A",
-        "isNew": true
+        "title": "Guadalajara",
+        "url": "https://maps.app.goo.gl/9jDu727VRARRCeTZ8",
+        "isNew": false
       },
       {
-        "title": "Coffee Shops",
-        "url": "https://maps.app.goo.gl/Jm21thgv1b3RD1yj9",
-        "isNew": true
+        "title": "Barcelona",
+        "url": "https://goo.gl/maps/KTBSNeGfyJcoh9fa6",
+        "isNew": false
       },
       {
-        "title": "Breakfast Spots",
-        "url": "https://maps.app.goo.gl/HiPDYumMsThNzPPt7",
-        "isNew": true
+        "title": "Madrid",
+        "url": "https://goo.gl/maps/ihthHBDUwjqfoa4a6",
+        "isNew": false
       },
       {
-        "title": "Dessert Spots",
-        "url": "https://maps.app.goo.gl/ACaasdMvyovH2nmd9",
-        "isNew": true
+        "title": "Vancouver",
+        "url": "https://goo.gl/maps/9Apgbv29NDYiww4m8",
+        "isNew": false
+      },
+      {
+        "title": "Cabo",
+        "url": "https://goo.gl/maps/gp9kGFUkm9ncQqBC6",
+        "isNew": false
       }
     ]
   }
