@@ -6,7 +6,7 @@ export const TravelContainer = () => {
   return (
     <section className='mx-auto w-2/3 items-center' id="Travel">
       <h2 className='mx-auto md:mx-0 my-4'><strong>Google Maps Lists - Travel</strong></h2>
-      <p>I like to make Google Maps lists of places I have visited, mostly documenting which places are worth visiting for their food or experiences. Feel free to use these lists for your own traveling.</p>
+      <p>Recommendations on places I have visited, mostly documenting places worth visiting for their food or experiences. Feel free to use these lists for your own traveling.</p>
       {
         mapsLists.map(listGroup => {
           return <MapsListCategory lists={listGroup} />
