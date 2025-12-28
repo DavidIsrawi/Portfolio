@@ -81,6 +81,16 @@
     "description": "A combination of experiences and food",
     "mapsLists": [
       {
+        "title": "El Nido",
+        "url": "https://maps.app.goo.gl/ZkBtY4xptsa7ohU28",
+        "isNew": true
+      },
+      {
+        "title": "Siargao",
+        "url": "https://maps.app.goo.gl/wjCmy59EVoXtvgMf6",
+        "isNew": true
+      },
+      {
         "title": "Tokyo",
         "url": "https://maps.app.goo.gl/dBAgPELL1h7Z4Se88",
         "isNew": false
