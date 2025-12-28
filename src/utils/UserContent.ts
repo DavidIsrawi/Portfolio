@@ -14,7 +14,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Microsoft",
-            description: "Currently living in Seattle while working on the M365 Copilot App at Microsoft, focusing on different Canvas experiences such as the Notebooks and Pages modules. Before that, I worked on the Loop App team as well as the Excel team, helping to develop a better the emoji experience, bettering our deployment infrastructure, and developing our charting experience. Good things to come!"
+            description: "Currently living in Seattle while working on the M365 Copilot App at Microsoft, focusing on different Canvas experiences such as the Notebooks and Pages modules. Before that, I worked on the Loop App team as well as the Excel team, helping to develop a better emoji experience, bettering our deployment infrastructure, and developing our charting experience. Good things to come!"
           }
         },
         {
@@ -24,7 +24,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Datanautix",
-            description: "Worked with neuro-linguistic programming and principles of machine learning to find insight in open comments. Developed interactive graphs and charts using d3. Researched and analyzed multiple Sentiment Analysis APIs using scikit-learn and found optimal Sentiment classifier by combining mulitple APIs."
+            description: "Worked with neuro-linguistic programming and principles of machine learning to find insight in open comments. Developed interactive graphs and charts using d3. Researched and analyzed multiple Sentiment Analysis APIs using scikit-learn and found the optimal Sentiment classifier by combining multiple APIs."
           }
         },
         {
@@ -97,7 +97,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "AllTheFeels",
-            description: `Amazon's Alexa skill prompts the user how his/her day is going, then it curates a list of regularly-updated Spotify playlists tailored to the person's mood. Worked on incorporating the AlchemyAPI to the response from Alexa, then sorting a list of playlist in accordance to the sentiment in the person's day.`
+            description: `Amazon's Alexa skill prompts the user how his/her day is going, then it curates a list of regularly-updated Spotify playlists tailored to the person's mood. Worked on incorporating the AlchemyAPI to the response from Alexa, then sorting a list of playlists in accordance to the sentiment in the person's day.`
           },
           links: [
             {
@@ -137,7 +137,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Flavored News",
-            description: `Website scrapes news articles from multiple reliable prominent sources and categorizes such articles by mood/tone of the information. I developed the Watson® Tone Analyzer processor for the articles, a web scrapper for BBC news, and the website’s CSS using Materialize. Processor and web scrapper coded in Python.`
+            description: `Website scrapes news articles from multiple reliable prominent sources and categorizes such articles by mood/tone of the information. I developed the Watson® Tone Analyzer processor for the articles, a web scraper for BBC news, and the website’s CSS using Materialize. Processor and web scraper coded in Python.`
           },
           links: [
             {
@@ -157,7 +157,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "SFReims",
-            description: `App eases the complexity of a web process to submit reimbursement forms for State Farm® employees. Developed with Ionic and AngularJS (Compatible with iOS and Android). I worked on the code for the ionic framework, and the basis for the AngularJS back end.`
+            description: `App eases the complexity of a web process to submit reimbursement forms for State Farm® employees. Developed with Ionic and AngularJS (Compatible with iOS and Android). I worked on the code for the Ionic framework, and the basis for the AngularJS back end.`
           }
         }
       ]
@@ -172,7 +172,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Securing your Website - What, Why, and How of HTTPS",
-            description: `We all know HTTPS is more secured than HTTP (it's in the name). But why is it important? How does it do it? And how can you add it to your website? I wrote this article in the process of learning all of this in order to apply it to my (this) website.`
+            description: `We all know HTTPS is more secure than HTTP (it's in the name). But why is it important? How does it do it? And how can you add it to your website? I wrote this article in the process of learning all of this in order to apply it to my (this) website.`
           },
           links: [
             {
@@ -208,7 +208,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Quick Analysis on MLS Players' Salary Growth in the last Decade",
-            description: 'Since 2007, MLS has been increasing its popularity -- bringing more revenue to the organization and an opportunity to increase the budget for each team. Here is a quick analysis in the salary growth of players in the last decade.'
+            description: 'Since 2007, MLS has been increasing its popularity -- bringing more revenue to the organization and an opportunity to increase the budget for each team. Here is a quick analysis of the salary growth of players in the last decade.'
           },
           links: [
             {
@@ -247,7 +247,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Running",
-            description: 'Running has been the most consistent way for me to work out given how easy it is to put on a pair of shoes and start running. So far, I had ran a handful of half-marathons and hope to run a full sometime in the future. My goal is not necessarily related to distance, but to lower the body strain needed to run the same distance over and over.'
+            description: 'Running has been the most consistent way for me to work out given how easy it is to put on a pair of shoes and start running. So far, I have run a handful of half-marathons and hope to run a full sometime in the future. My goal is not necessarily related to distance, but to lower the body strain needed to run the same distance over and over.'
           },
           links: [
             {
@@ -263,7 +263,7 @@ export const userContent: UserContent =
           },
           description: {
             title: "Competitive Player for Super Smash Bros. Ultimate",
-            description: `I have been playing competitively since 2021-2022. I have mostly attended local tournaments, though I eventually also participate in events out of region.`
+            description: `I have been playing competitively since 2021-2022. I have mostly attended local tournaments, though I also participate in events out of region around twice a year`
           },
           links: [
             {
