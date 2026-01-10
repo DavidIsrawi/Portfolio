@@ -1,6 +1,10 @@
 export const externalLinks = {
   // Social media and profiles
+  twitch: "https://www.twitch.tv/dahveed_iy",
+  twitter: "https://twitter.com/DavidIsrawi",
+  github: "https://github.com/DavidIsrawi",
   instagram: "https://www.instagram.com/davidisrawi/",
+  linkedin: "https://www.linkedin.com/in/davidisrawi/",
   strava: "https://www.strava.com/athletes/125204347",
   superSmashProfile: "https://www.supermajor.gg/ultimate/player/Dahveed?id=S1805146",
   resume: "https://drive.google.com/file/d/0BxHec4yAhjE_TExsYjlRbUcyLVU/view?usp=sharing&resourcekey=0-XjRa57thfhaPssVyodLjjQ",
