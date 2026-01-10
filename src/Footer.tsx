@@ -1,7 +1,7 @@
-export const Footer = () => {
+export function Footer(): JSX.Element {
   return (
-    <div className="py-6 text-center">
+    <footer className="py-6 text-center">
       <p>Copyright by Dahveed - 2026.</p>
-    </div>
+    </footer>
   )
 }

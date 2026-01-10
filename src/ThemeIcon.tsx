@@ -1,32 +1,26 @@
-import React from "react";
-import { DarkThemeIcon, LightThemeIcon } from "./Icons";
+import { useState, useEffect } from "react"
+import { DarkThemeIcon, LightThemeIcon } from "./Icons"
 
-export const ThemeIcon = () => {
-    const [isLightTheme, setIsLightTheme] = React.useState(false);
+export function ThemeIcon(): JSX.Element {
+    const [isLightTheme, setIsLightTheme] = useState(() => {
+        return !document.documentElement?.classList.contains("dark")
+    })
 
-    React.useEffect(() => {
-        const isDarkThemeApplied = document.documentElement?.classList.contains("dark")
-        setIsLightTheme(!isDarkThemeApplied)
+    useEffect(() => {
+        if (isLightTheme) {
+            document.documentElement.classList.remove('dark')
+        } else {
+            document.documentElement.classList.add('dark')
+        }
     }, [isLightTheme])
 
-    const toggleTheme = () => {
-        // do the opposite logic as we're about to switch the state
-        if (isLightTheme) {
-            document.documentElement.classList.add('dark')
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
-
-        setIsLightTheme(isLightTheme => !isLightTheme)
+    function toggleTheme(): void {
+        setIsLightTheme(prev => !prev)
     }
 
     return (
-        <button onClick={() => toggleTheme()} aria-label="Switch Theme">
-            { isLightTheme ?
-                <DarkThemeIcon/>
-            :
-                <LightThemeIcon/>
-            }
+        <button onClick={toggleTheme} aria-label="Switch Theme">
+            {isLightTheme ? <DarkThemeIcon /> : <LightThemeIcon />}
         </button>
     )
 }

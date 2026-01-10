@@ -3,48 +3,48 @@ export interface UserContent {
 }
 
 export interface ContentType {
-    type: string,
+    type: string
     content: ContentItem[]
 }
 
 export interface ContentItem {
-    img: ContentItemImg,
-    description: ContentItemDescription,
+    img: ContentItemImg
+    description: ContentItemDescription
     links?: ContentItemLinks[]
 }
 
-interface ContentItemImg {
-    path: string,
-    title: string,
+export interface ContentItemImg {
+    path: string
+    title: string
 }
 
-interface ContentItemDescription {
-    title: string,
+export interface ContentItemDescription {
+    title: string
     description: string
 }
 
 export interface MapsList {
-    title: string,
-    url: string,
+    title: string
+    url: string
     isNew: boolean
 }
 
 export interface ContentItemLinks {
-    title: string,
+    title: string
     url: string
 }
 
 export interface UserProfile {
-    name: string,
-    about: JSX.Element,
-    description: string,
-    email: string,
-    img: string,
+    name: string
+    about: JSX.Element
+    description: string
+    email: string
+    img: string
     resume: string
 }
 
 export interface MapsListsCategory {
-    name: string,
-    description: string,
+    name: string
+    description: string
     mapsLists: MapsList[]
 }

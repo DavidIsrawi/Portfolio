@@ -252,7 +252,7 @@ export const userContent: UserContent =
           links: [
             {
               title: "Strava",
-              url: externalLinks.stravaProfile
+              url: externalLinks.strava
             }
           ]
         },

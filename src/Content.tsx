@@ -1,16 +1,13 @@
-import React from "react"
 import { Card } from "./Card"
 import { ContentItem, ContentType } from "./utils/DataModel"
 import { userContent } from "./utils/UserContent"
 
-export const Content = () => {
+export function Content(): JSX.Element {
     return (
         <section id="content">
-            {
-                userContent.contentTypes.map(contentType => {
-                    return <ContentSection section={contentType}/>
-                })
-            }
+            {userContent.contentTypes.map(contentType => (
+                <ContentSection key={contentType.type} section={contentType} />
+            ))}
         </section>
     )
 }
@@ -23,7 +20,7 @@ interface ContentSectionTitleProps {
     title: string
 }
 
-const ContentSectionTitle = (props: ContentSectionTitleProps) => {
+function ContentSectionTitle(props: ContentSectionTitleProps): JSX.Element {
     return (
         <h2 className="mx-auto w-2/3 flex items-center gap-6">
             <strong className="mx-auto md:mx-0" tabIndex={0} id={props.title}>{props.title}</strong>
@@ -31,15 +28,13 @@ const ContentSectionTitle = (props: ContentSectionTitleProps) => {
     )
 }
 
-const ContentSection = (props: ContentSectionProps) => {
+function ContentSection(props: ContentSectionProps): JSX.Element {
     return (
         <section className="my-10 md:scroll-mt-14 scroll-mt-20" aria-labelledby={props.section.type}>
-            <ContentSectionTitle title={props.section.type}/>
-            {
-                props.section.content.map((item: ContentItem) => {
-                    return <Card img={item.img} description={item.description} links={item.links}/>
-                })
-            }
+            <ContentSectionTitle title={props.section.type} />
+            {props.section.content.map((item: ContentItem) => (
+                <Card key={item.description.title} img={item.img} description={item.description} links={item.links} />
+            ))}
         </section>
-        )
+    )
 }
