@@ -2,7 +2,7 @@ import { ContentItem, ContentItemLinks } from "./utils/DataModel"
 
 export function Card(props: ContentItem): JSX.Element {
     return (
-        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" tabIndex={0}>
+        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transform-gpu motion-safe:transition motion-safe:duration-200 motion-safe:ease-in-out motion-safe:hover:-translate-y-1 motion-safe:hover:scale-103 motion-safe:focus:-translate-y-1 motion-safe:focus:scale-103" tabIndex={0}>
             <img
                 src={props.img.path}
                 alt={props.img.title}
