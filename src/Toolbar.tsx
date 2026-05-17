@@ -8,8 +8,8 @@ interface ToolbarProps {
 
 export function Toolbar(props: ToolbarProps): JSX.Element {
     return (
-        <div className="top-0 py-1 sticky flex flex-wrap justify-around px-3 bg-light dark:bg-dark transition-colors duration-300 z-10">
-            {props.showName && <ToolbarTitle title={userProfile.name} />}
+        <div className="top-0 py-1 sticky flex flex-wrap justify-around items-center px-3 bg-light dark:bg-dark transition-colors duration-300 z-10">
+            <ToolbarTitle title={userProfile.name} showName={props.showName} />
             {userContent.contentTypes.map(type => (
                 <ToolbarButton key={type.type} title={type.type} />
             ))}
@@ -21,11 +21,12 @@ export function Toolbar(props: ToolbarProps): JSX.Element {
 
 interface ToolbarTitleProps {
     title: string
+    showName: boolean
 }
 
 function ToolbarTitle(props: ToolbarTitleProps): JSX.Element {
     return (
-        <a className='font-bold text-2xl' href='#FrontPage'>
+        <a className={`hidden sm:block w-44 font-bold text-2xl transition-opacity duration-200 ${props.showName ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} href='#FrontPage' aria-hidden={!props.showName} tabIndex={props.showName ? 0 : -1}>
             {props.title}
         </a>
     )

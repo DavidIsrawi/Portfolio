@@ -1,4 +1,5 @@
 import { useRef, useMemo, useCallback, useEffect } from "react"
+import type { ImgHTMLAttributes } from "react"
 import { SocialMediaIcons } from "./Icons"
 import { userProfile } from "./utils/UserProfile"
 
@@ -44,13 +45,18 @@ export function FrontPage(props: FrontPageProps): JSX.Element {
 }
 
 function ProfilePic(): JSX.Element {
+    const priorityImageProps = { fetchpriority: 'high' } as ImgHTMLAttributes<HTMLImageElement> & { fetchpriority: 'high' }
+
     return (
-        <div className="w-1/3 lg:w-1/4" tabIndex={0}>
+        <div className="w-40 h-40 md:w-64 md:h-64 lg:w-80 lg:h-80" tabIndex={0}>
             <img
-                className="rounded-full transition-shadow duration-700 shadow-2xl hover:shadow-primary dark:hover:shadow-secondary"
+                className="w-full h-full rounded-full object-cover transition-shadow duration-700 shadow-2xl hover:shadow-primary dark:hover:shadow-secondary"
                 src={userProfile.img}
                 alt="dahveed"
-                loading="lazy"
+                loading="eager"
+                width="320"
+                height="320"
+                {...priorityImageProps}
             />
         </div>
     )

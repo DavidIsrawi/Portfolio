@@ -2,11 +2,11 @@ import { ContentItem, ContentItemLinks } from "./utils/DataModel"
 
 export function Card(props: ContentItem): JSX.Element {
     return (
-        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103" tabIndex={0}>
+        <div className="max-w-4xl h-1/3 rounded-md flex flex-col md:flex-row justify-between mx-auto my-10 p-10 transition duration-200 ease-in-out transform hover:-translate-y-1 focus:-translate-y-1 motion-reduce:transform-none" tabIndex={0}>
             <img
                 src={props.img.path}
                 alt={props.img.title}
-                className="w-1/4 md:w-1/6 self-center pb-4 md:pb-0"
+                className="h-20 w-20 md:h-24 md:w-24 object-contain self-center mb-4 md:mb-0"
                 loading='lazy'
             />
             <div className="w-5/6 md:pl-10 text-center self-center md:text-left space-y-5">

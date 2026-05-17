@@ -3,7 +3,7 @@ import mapsLists from './utils/GoogleMapsLists.json'
 
 export function TravelContainer(): JSX.Element {
   return (
-    <section className='mx-auto w-2/3 items-center' id="Travel">
+    <section className='mx-auto w-11/12 md:w-2/3 max-w-4xl items-center' id="Travel">
       <h2 className='mx-auto md:mx-0 my-4'><strong>Google Maps Lists - Travel</strong></h2>
       <p>Recommendations on places I have visited, mostly documenting places worth visiting for their food or experiences. Feel free to use these lists for your own traveling.</p>
       {mapsLists.map(listGroup => (
@@ -39,7 +39,7 @@ interface MapsListCardProps {
 
 function MapsListCard(props: MapsListCardProps): JSX.Element {
   return (
-    <div className='relative bg-[url("../public/assets/Maps.png")] text-primary m-2 py-3 px-4 rounded-full transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-103 focus:-translate-y-1 focus:scale-103 self-center text-center'>
+    <div className='relative bg-[url("../public/assets/Maps.png")] text-primary m-2 py-3 px-4 rounded-full transition duration-200 ease-in-out transform hover:-translate-y-1 focus:-translate-y-1 motion-reduce:transform-none self-center text-center'>
       <a target="_blank" rel="noreferrer noopener" href={props.list.url}>
         <strong>{props.list.title}</strong>
       </a>
