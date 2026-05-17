@@ -25,6 +25,7 @@ export function FrontPage(props: FrontPageProps): JSX.Element {
         if (current) observer.observe(current)
         return () => {
             if (current) observer.unobserve(current)
+            observer.disconnect()
         }
     }, [frontSectionRef, intersectFrontNameCallback, options])
 
@@ -50,7 +51,7 @@ function ProfilePic(): JSX.Element {
                 className="rounded-full transition-shadow duration-700 shadow-2xl hover:shadow-primary dark:hover:shadow-secondary"
                 src={userProfile.img}
                 alt="dahveed"
-                loading="lazy"
+                loading="eager"
             />
         </div>
     )
